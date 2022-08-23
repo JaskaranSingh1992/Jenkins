@@ -22,6 +22,10 @@ namespace Jenkins.Controllers
         {
             var rng = new Random(); 
         }
+        public void Insert()
+        {
+            
+        }
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
