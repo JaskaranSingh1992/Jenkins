@@ -18,6 +18,10 @@ namespace Jenkins.Controllers
             _logger = logger;
         }
 
+        public void Test()
+        {
+
+        }
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
