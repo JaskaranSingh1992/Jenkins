@@ -24,7 +24,15 @@ namespace Jenkins.Controllers
         }
         public void Insert()
         {
-            
+            try
+            {
+
+            }
+            catch (Exception ex)
+            {
+
+                throw new Exception(ex.Message);
+            }
         }
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
