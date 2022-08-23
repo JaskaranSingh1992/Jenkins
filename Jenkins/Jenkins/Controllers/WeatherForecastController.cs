@@ -26,8 +26,7 @@ namespace Jenkins.Controllers
         {
             try
             {
-                var rng = new Random();
-                var rng1 = new Random();
+              
             }
             catch (Exception ex)
             {
