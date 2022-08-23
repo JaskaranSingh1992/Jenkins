@@ -20,7 +20,7 @@ namespace Jenkins.Controllers
 
         public void Test()
         {
-
+            var rng = new Random(); 
         }
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
