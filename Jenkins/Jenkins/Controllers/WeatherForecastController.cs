@@ -17,11 +17,6 @@ namespace Jenkins.Controllers
         {
             _logger = logger;
         }
-
-        public void Test()
-        {
-            var rng = new Random(); 
-        }
         public void Insert()
         {
             try
