@@ -22,7 +22,6 @@ namespace Jenkins.Controllers
             try
             {
                 string ABC;       
-                string ABCd;       
             }
             catch (Exception ex)
             {
